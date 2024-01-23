@@ -1,0 +1,292 @@
+.lottie_folder {
+  margin-top: 4.5rem;
+  height: auto;
+  width: 100%;
+}
+.upload_wrapper {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  border-radius: 10px;
+  width: 60%;
+  height: auto;
+  color: white;
+  background-color: #dcdcdc;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.upload_wrapper #file {
+  width: inherit;
+  height: 36vh;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+.lotti {
+  width: 28%;
+}
+
+.h_5a {
+  font-family: Inter, sans-serif !important;
+  font-weight: 500;
+  color: gray;
+  margin-bottom: 2rem;
+}
+
+.h_5a:after {
+  content: attr(data-text);
+  color: black;
+  font-weight: 600;
+}
+
+input[type="checkbox"] {
+  background-color: #fff;
+  margin: 0;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+}
+
+
+.popup{
+
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.display_div {
+  background-color: white;
+  /* width: 86%; */
+  width: 45%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+  padding-bottom: 1rem;
+  box-shadow: 0px 0px 20px #ababab;
+  position: relative;
+  border-radius: 0.5rem;
+  padding: 9px 20px;
+
+  
+}
+
+
+#crossLink{
+
+   
+  position: absolute;
+  left: 92%;
+  top: 2%;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background-color: #f2f3f4;
+  margin: 15px -15px;
+}
+
+
+#plu {
+  margin-left: 1.3rem;
+}
+
+.display {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+.justoption {
+  width: 83.333%;
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  gap: 0.5rem;
+  
+  
+}
+.display_1 {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 0.7rem;
+}
+
+.display_1a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.7rem;
+
+}
+
+.seelect {
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: auto;
+}
+
+.process {
+  display: flex;
+  justify-content: center;
+  margin-top: 1.2rem;
+}
+
+.upload_wrapperr {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  border-radius: 10px;
+  width: 91.666667%;
+  height:2.25rem;
+  background-color: rgb(46, 125, 56);
+  margin: auto;
+  border-radius: 0.5rem;
+}
+
+.upload_wrapperr #filee {
+  width: inherit;
+  height: 2, 25rem;
+  opacity: 0;
+  position: absolute;
+  z-index: 1;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 850px) {
+
+
+  .popup{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+
+  .upload_wrapper {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    color: white;
+    background-color: #dcdcdc;
+    border-radius: 10px;
+  }
+
+  .lotti {
+    width: 50%;
+  }
+
+  .display_div {
+    background-color: white;
+    width: 91.666667%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 1.3rem;
+    box-shadow: none;
+    background-color: #dcdcdc;
+    padding-bottom: 1rem;
+    border-radius: 0.5rem;
+  }
+
+  .backiimggg {
+    width: 20%;
+    height: 300px;
+    border: 2px solid red;
+  }
+
+  
+#crossLink{
+  position: absolute;
+  left: 92%;
+  top: 2%;
+  border-radius: 50%;
+  padding: 0.3rem;
+  background-color: #f2f3f4;
+  margin: 0px -15px;
+}
+
+  
+.display_1 {
+  width: 89%;
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  gap: 0.5rem;
+}
+
+  .justoption {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    gap: 1.7rem;
+    
+  }
+  /* 
+    
+.display_1{
+  width: 89%;
+  display: flex;
+  flex-direction: row;
+  align-self: center;
+  gap: 9.65rem;
+  margin: auto;
+  }
+     */
+  #plu {
+    margin-left: 0.8rem;
+  }
+
+  .display_1a {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 0.7rem;
+  }
+
+  .process {
+    display: flex;
+    justify-content: center;
+    margin-top: 1.5rem;
+  }
+  
+.upload_wrapperr {
+  display: flex;
+  justify-content:center ;
+  align-items: center;
+  border-radius: 10px;
+  width: 91.666667%;
+  height:2.25rem;
+  background-color: rgb(46, 125, 56);
+  margin: auto;
+  border-radius: 0.5rem;
+}
+}
